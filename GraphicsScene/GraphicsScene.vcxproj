@@ -202,6 +202,8 @@
     <None Include="Lucy.mtl">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </None>
+    <None Include="Melody.frag" />
+    <None Include="Melody.vert" />
     <None Include="phong.frag" />
     <None Include="phong.vert" />
     <None Include="simple.frag" />

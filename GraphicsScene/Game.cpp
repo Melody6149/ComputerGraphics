@@ -92,11 +92,11 @@ bool Game::start()
 	//Initialize shader
 	m_shader.loadShader(
 		aie::eShaderStage::VERTEX,
-		"phong.vert"
+		"Melody.vert"
 	);
 	m_shader.loadShader(
 		aie::eShaderStage::FRAGMENT,
-		"phong.frag"
+		"Melody.frag"
 	);
 	if (!m_shader.link()) {
 		printf(
@@ -107,7 +107,7 @@ bool Game::start()
 	}
 
 	//Load obj mesh
-	if (!m_objMesh.load("Dragon.obj")) {
+	if (!m_objMesh.load("soulspear.obj")) {
 		printf("Failed to load OBJmesh.\n");
 		return false;
 	}

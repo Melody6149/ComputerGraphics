@@ -118,6 +118,12 @@
     <None Include="phong.frag">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="Melody.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Melody.vert">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Image Include="earth_cloud.jpg">
