@@ -4,15 +4,17 @@
 #include <glm/ext.hpp>
 #include <glm/gtc/quaternion.hpp>
 #include <glm/gtx/quaternion.hpp>
-
+/// <summary>
+/// Actor class holds all of the functions used by objects that inherit from actor
+/// </summary>
 class Actor
 {
 public:
-	Actor() {}
-	Actor(glm::vec3 position, glm::quat rotation, glm::vec3 scale = { 1.0f, 1.0f, 1.0f });
+	Actor() {} ///default constructor
+	Actor(glm::vec3 position, glm::quat rotation, glm::vec3 scale = { 1.0f, 1.0f, 1.0f }); /// constructor for Actor
 	~Actor() {}
 
-	virtual bool start() { return true; }
+	virtual bool start() { return true; } 
 	virtual bool update(double deltaTime) { return true; }
 	virtual bool draw() { return true; }
 	virtual bool end() { return true; }
