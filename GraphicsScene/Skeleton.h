@@ -2,7 +2,9 @@
 #include "Actor.h"
 #include "Bone.h"
 #include <vector>
-
+/// <summary>
+/// holds all of the functions used for skeletons
+/// </summary>
 class Skeleton : public Actor
 {
 public:

@@ -16,6 +16,10 @@
 
 class Camera;
 
+/// <summary>
+/// This is used for making the game run
+/// </summary>
+
 class Game
 {
 public:

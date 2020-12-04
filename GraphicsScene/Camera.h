@@ -1,7 +1,9 @@
 #pragma once
 #include "Game.h"
 #include "Actor.h"
-
+/// <summary>
+/// holds all of the functions for the camera
+/// </summary>
 class Camera : public Actor
 {
 public:

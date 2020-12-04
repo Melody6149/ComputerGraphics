@@ -1,7 +1,9 @@
 #pragma once
 #include <glm/glm.hpp>
 #include <Texture.h>
-
+/// <summary>
+/// Holds all of the functios used for textures
+/// </summary>
 class Mesh
 {
 public:

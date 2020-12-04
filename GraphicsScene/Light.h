@@ -1,6 +1,8 @@
 #pragma once
 #include "Actor.h"
-
+/// <summary>
+/// holds all of the functions for lights
+/// </summary>
 class Light
 {
 public:
